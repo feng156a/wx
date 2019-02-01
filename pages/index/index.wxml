@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <image src='../icon/index_bg.png' style='width:100%;height:50px;'></image>
+    <view class='userinfo_bottomblock'>
+      <view  class='userinfo_photo' ><open-data type='userAvatarUrl'/></view>
+      <open-data type='userNickName' class='nickName'/>
+      <Text class='islogin' style='color={{islogin_color}}'>{{islogin}}</Text>
+      <view class='info_score'>
+      <text style='position:absolute; top:1px;left:20px;'>共答题：X道</text>
+      <text style='position:absolute;top:1px; right:20px;'>正确率：X%</text>
+      </view>
+    </view>
+  </view>
+  <view class='item-container'>
+    <baseListItem style='width:92%;margin-top:10px'>
+      <text slot='basename'>公共基础知识</text>
+      <text slot='baseintr'>单选（500）|多选（300）|判断（100)</text>
+    </baseListItem>
+    <baseListItem style='width:92%;margin-top:10px'>
+      <text slot='basename'>公共基础知识(一)</text>
+      <text slot='baseintr'>单选（500）|多选（300）|判断（100)</text>
+    </baseListItem>
+  </view>
+</view>

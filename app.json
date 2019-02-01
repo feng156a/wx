@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/examnationpage/examnationpage",
+    "pages/index/index",
+    "pages/logs/logs"
+   
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#047120",
+    "navigationBarTitleText": "口袋刷题助手",
+    "navigationBarTextStyle": "white"
+  }
+}

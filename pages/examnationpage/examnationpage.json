@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "subjectpage": "/components/subjectpage/subjectpage",
+    "dialog": "/components/Dialog/Dialog",
+    "imagebutton": "/components/imagebutton/imagebutton",
+    "navigationpanel": "/components/navigationpanel/navigationpanel"
+  }
+}

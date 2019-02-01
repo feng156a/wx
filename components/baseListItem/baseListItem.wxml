@@ -1,0 +1,17 @@
+<!--pages/baseListItem.wxml-->
+<view class='container' >
+    <view class="items" style='margin-left:{{marginplace}}px' bindtouchstart='_touchStart' bindtouchend='_touchEnd' bindtouchmove='_touchMove' bindtap='_listTap' hover-class='hover-start'>
+      <view class='list-item-icon' >
+        <image class='list-item-icon-image' src='../icon/fullpapers.png'></image>
+      </view>
+      <view class="infos">
+        <view class='name'>
+          <slot name='basename'></slot>
+        </view>
+        <view class='intr'>
+          <slot name='baseintr'></slot>
+        </view>
+      </view>
+      <view class='delBtn' style='right:{{btnMov}}'><image src='../icon/deleteicon.png' style='width:50px;height:50px;'></image></view>
+  </view>
+</view>

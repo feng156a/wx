@@ -1,0 +1,11 @@
+<!--components/Dialog.wxml-->
+<view class='shade' hidden='{{isshow}}'></view>
+<view class='container'  hidden='{{isshow}}'>
+  <view class='content'>
+  <view class='message'>{{message}}</view>
+  </view>
+  <view class='buttons'>
+    <view class='yes' bindtap='confirm'><text>确定</text></view>
+    <view class='no' bindtap='cancel'><text>取消</text></view>
+  </view>
+</view>

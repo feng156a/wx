@@ -1,0 +1,4 @@
+<!--components/seal/seal.wxml-->
+<view class='container'>
+<image src='../icon/{{seal}}.png' class='seal'></image>
+</view>

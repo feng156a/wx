@@ -1,0 +1,14 @@
+<!--components/subjectpage/subjectpage.wxml-->
+
+  <view class='content'>
+    <view class='subject' bindtap='_showdialog'>
+      <view style='margin-top:25px'>
+        <text>{{subject}}</text>
+      </view>
+    </view>
+    <view  class='answerContainer'  wx:for="{{answers}}" wx:key="index" >
+      <answerItem class='answers' id='item{{index}}' bind:isright='onShowanswer' content='{{item.content}}' isright='{{item.isright}}' index='{{index}}' ></answerItem>
+    </view>
+    <image src='../icon/{{seal}}.png' class='seal' hidden='{{sealhidden}}'></image>
+  </view>
+
