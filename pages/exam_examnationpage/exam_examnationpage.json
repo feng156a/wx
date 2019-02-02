@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "subjectpage": "/exam_components/subjectpage/subjectpage",
+    "dialog": "/exam_components/Dialog/Dialog",
+    "imagebutton": "/exam_components/imagebutton/imagebutton",
+    "navigationpanel": "/exam_components/navigationpanel/navigationpanel"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "answerItem": "/exam_components/answerItem/answerItem",
+    "dialog": "/exam_components/Dialog/Dialog"
+  }
+}

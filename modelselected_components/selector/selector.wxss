@@ -1,0 +1,91 @@
+/* modelselected_components/selector/selector.wxss */
+.master{
+  position:absolute;
+  top:0px;
+  bottom:0px;
+  left:0px;
+  right:0px;
+  background-color: gray;
+  opacity: 0.4; 
+}
+.container{
+  position:absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top:15%;
+  bottom:35%;
+  left:20px;
+  right:20px;
+  background-color: white;
+  border-radius: 5px;
+
+}
+.headbar{
+  width:100%;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid lightgray;
+}
+.headstyle{
+  font-size: 15px;
+  color:#047120;
+  font-weight: bold;
+}
+.selector-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  height: 40%;
+}
+.picker-view{
+  width: 100%;
+  height: 80%; 
+}
+.tips-container{
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+  border-top: 1px solid lightgray;
+}
+.tips{
+  width: 50%;
+  text-align: center;
+  color:#047120;
+  margin-top:20px; 
+}
+.button-container{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  bottom: 0px;
+}
+.button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 40px;
+  font-size: 13px;
+  color:  #047120;
+  font-weight: bold;
+  border-top:1px solid lightgray;
+}
+.button-left{
+border-right:1px solid lightgray;
+}
+.button-text{
+  text-align: center;
+  line-height: 100%;
+}
+.tapstyle{
+  background-color: #dce0dd;
+}

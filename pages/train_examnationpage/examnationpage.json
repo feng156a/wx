@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "subjectpage": "/train_components/subjectpage/subjectpage",
+    "dialog": "/train_components/Dialog/Dialog",
+    "imagebutton": "/train_components/imagebutton/imagebutton",
+    "navigationpanel": "/train_components/navigationpanel/navigationpanel"
+  }
+}

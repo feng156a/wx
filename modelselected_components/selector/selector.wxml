@@ -1,0 +1,25 @@
+<!--modelselected_components/selector/selector.wxml-->
+<view class='master' hidden='{{hidden}}'/>
+<view class='container' hidden='{{hidden}}'>
+  <view class='headbar'>
+    <text class='headstyle'>请选择题号范围</text>
+  </view>
+  <view class='tips-container'>
+  <text class='tips'>开始题号</text>
+  <text class='tips'>结束题号</text>
+  </view>
+  <view class='selector-container'>
+    <picker-view class='picker-view' bindchange="bindChange">
+      <picker-view-column>
+        <view wx:for="{{start}}" style="line-height: 40px;text-align: center">{{item}}</view>
+      </picker-view-column>
+      <picker-view-column>
+        <view wx:for="{{end}}" style="line-height: 40px;text-align: center">{{item}}</view>
+      </picker-view-column>
+    </picker-view>
+  </view>
+  <view class='button-container'>
+  <view class='button button-left' hover-class='tapstyle' bindtap='_goto'> <text class='button-text' >开始</text></view>
+  <view class='button' hover-class='tapstyle' bindtap='_close'><text class='button-text' style='color:red' >取消</text></view>
+  </view>
+</view>

@@ -1,0 +1,4 @@
+<!--components/imagebutton/imagebutton.wxml-->
+<view class='container' hover-class='hover'>
+<view class='image'><image src='../icon/{{imageurl}}' style='width:20px;height:20px'/></view>
+</view>

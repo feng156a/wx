@@ -1,0 +1,6 @@
+/* components/seal/seal.wxss */
+.seal{
+  width:60px;
+  height: 30px;
+
+}

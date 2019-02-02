@@ -1,0 +1,35 @@
+/* pages/examnationpage/examnationpage.wxss */
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+}
+.subject{
+  width: 100%;
+  min-height: 100px;
+  background-color: white;
+  color:#047120;
+  font-size: 15px;
+  word-break: break-all;
+  border-bottom: 3px solid #047120;
+}
+.answers{
+  width: 100%;
+  margin-top: 10px;
+}
+.answerContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 98%;
+}
+.seal{
+  position: absolute;
+  right:0px;
+  top:100px;
+  width: 100px;
+  height: 50px;
+  transform: rotate(-30deg);
+}

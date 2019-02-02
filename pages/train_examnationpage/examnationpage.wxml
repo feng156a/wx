@@ -1,0 +1,18 @@
+<!--pages/examnationpage/examnationpage.wxml-->
+<view class='container' hidden='{{hidden}}'>
+  <swiper class='swiper' current='{{current}}' bindchange='swiperchange'>
+  <swiper-item  wx:for='{{subjects}}' wx:key='index'><view  class='page'><subjectpage id='page{{index}}' bind:dead='onIsdead'/></view></swiper-item>
+  </swiper>
+   <view class='subjectnumber'>
+    <image src='../icon/number_flag_img.png' style='width:50px;height:20px'></image>
+    <text class='number_show'>{{currentpage}}/{{allpage}}</text>
+  </view>
+  <view class='footbar'>
+  <imagebutton class='navigation'  imageurl='navigation.png'  bindtap='opennavigationpanel'></imagebutton>
+  <imagebutton class='collection' imageurl='collection.png'></imagebutton>
+  <imagebutton class='note' imageurl='note.png'></imagebutton>
+  <imagebutton class='showanswer' imageurl='showanswer.png'></imagebutton>
+  </view>
+</view>
+<dialog id='dialog' bind:confirm='onConfirm' message='您确定要删除此题库吗？'></dialog>
+<navigationpanel id='navigationpanel' bind:jumpto='onJumpto' number='{{allpage}}'  status='{{status}}'/>

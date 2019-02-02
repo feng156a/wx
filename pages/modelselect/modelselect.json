@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "animotionbutton": "/modelselected_components/animotion_cirlebutton/animotion_button",
+    "selector": "/modelselected_components/selector/selector"
+  }
+}

@@ -1,0 +1,11 @@
+<!--modelselected_components/animotion_cirlebutton/animotion_button.wxml-->
+<view class='container'>
+    <view class='button'>
+      <view class='wave-container' style='margin-top:{{100-number}}%'>
+        <view class='wave-green'><image src='../icon/wave-green.png' style='width:100%;height:100%'></image></view>
+        <view class='wave-green-1'><image src='../icon/wave-green.png' style='width:100%;height:100%'></image></view>
+        
+      </view>
+    </view>
+  <view class='text'>{{name}}</view>
+</view>

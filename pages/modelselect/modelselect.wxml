@@ -1,0 +1,27 @@
+<!--pages/modelselect/modelselect.wxml-->
+<view class='container'>
+  <view class='color-block'></view>
+  <view class='inner-container'>
+    <view class='baseinfomation-container'>
+    <view class='headbar'><text class='basename'>{{basename}}</text></view>
+    <view class='button-container'>
+    <animotionbutton number='50' name='完成率' class='buttonstyle'></animotionbutton>
+    <animotionbutton number='80' name='正确率' class='buttonstyle'></animotionbutton>
+    <animotionbutton number='20' name='熟练度' class='buttonstyle'></animotionbutton>
+    </view>
+    </view>
+    <view class='button-container'>
+    <view class='buttonimg' hover-class='tapedstyle' bindtap='_navigate' data-url='inline'><image  src='../icon/inline.png' class='imagestyle'></image></view>
+    <view class='buttonimg' style='border-left:0.2px solid #e3dfdf;border-right:0.2px solid #e3dfdf;' hover-class='tapedstyle'>
+    <image  src='../icon/random.png' class='imagestyle'/>
+    </view>
+    <view class='buttonimg'  hover-class='tapedstyle'><image  src='../icon/exam.png' class='imagestyle'></image></view>
+    <view class='buttonimg1' hover-class='tapedstyle'><image  src='../icon/dowrong.png' class='imagestyle'></image></view>
+    <view class='buttonimg1' style='border-left:0.2px solid #e3dfdf;border-right:0.2px solid #e3dfdf;' hover-class='tapedstyle'>
+    <image  src='../icon/target.png' class='imagestyle'/>
+    </view>
+    <view class='buttonimg1' hover-class='tapedstyle'><image  src='../icon/collection.png' class='imagestyle'></image></view>
+    </view>
+  </view>
+</view>
+<selector id='selector'/>

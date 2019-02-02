@@ -1,0 +1,6 @@
+<!--components/answerItem/answerItem.wxml-->
+<view class='container' bindtap='_bechoosed' style='border-left-color: {{bdcolor}};background-color:{{bgcolor}}'>
+
+<view class='answerflag'><image src='../icon/{{index}}.png' style='width:40px;height:40px'></image></view>
+<view class='answercontent'><text class='answercontent-text'>{{content}}</text></view>
+</view>

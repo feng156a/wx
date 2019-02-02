@@ -1,0 +1,16 @@
+<!--components/navigationpanel.wxml-->
+<view class='container' hidden='{{ishide}}'>
+  <view class='headbar'>
+    <view calss='tips'>
+      <text class='tipstext'>共有{{number}}道题</text>
+    </view>
+    <view class='closebutton' bindtap='_close'>
+      <image src='../icon/close.png' style='width:15px;height:15px'></image>
+    </view>
+  </view>
+  <view class='buttoncontainer'>
+    <view  class='circlebutton'  wx:for='{{status}}' wx:key='index' bindtap='goto' data-number='{{index}}' id='button{{index}}' style='background-color: {{item}}'>
+      <text class='numberstyle'>{{index+1}}</text>
+    </view>
+  </view>
+</view>
